@@ -460,6 +460,7 @@ footer p {
     color: #ccc;
     text-align: center;
     margin: 20px;
+	font-size: 100%;
 }
 footer .copyright{
     background-color: #222;
