@@ -333,6 +333,7 @@ em{
 }
 .store{
     margin-top: 50px;
+    margin-right: 0;
 }
 .store i{
     font-size: 140%;
@@ -340,7 +341,7 @@ em{
 }
 .store a{
     height: 50px;
-    width: 70px;
+    width: 150px;
     background: #e67e22;
     border: 2px solid #e67e22;
     font-size: 70%;
@@ -349,7 +350,13 @@ em{
     border-radius: 15px;
     color: #fff;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 10px;
+    transition: border-color 0.3s, background 0.3s;
+}
+.store a:hover,
+.store a:active {
+    border-color: #d44e01;
+    background: #d44e01;
 }
 
 /* ----------------------------------------------- */
