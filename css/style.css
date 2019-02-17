@@ -302,6 +302,8 @@ em{
 #steps{
     background-color: #efefef;
     padding: 70px 40px;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
 }
 .steps-box{
     margin-top: 20px;
@@ -388,6 +390,7 @@ em{
 #testimonial{
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/back-customers.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
     background-attachment: fixed;
     padding-left: 20px;
